@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 73%, rgba(2,0,160,1) 89%,
+            rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+}
+.topnav{
+    overflow: hidden;
+    padding: 15px;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 20px;
+    position: static;
+}
+.topnav li{
+    list-style-type: none;
+    display: inline;
+    color: white;
+    margin-left: 50px;
+    font-size: 25px;
+ }
+ .topnav li a{
+    text-decoration: none;
+    color: greenyellow;
+ }
+ .topnav li a:hover{
+   color: red;
+ }
+ button{
+    width: 200px;
+    border: 2px solid green;
+    background-color: transparent;
+  font-weight: 500;
+    padding: 10px;
+    margin-top: 15px;
+ }
+ button a{
+    color: black;
+
+ }
+ button:hover{
+    background-color: greenyellow;
+ }
+
+
+ .profile{
+    width: 100%;
+    height: auto;
+  background: url("../images/white.jpg") no-repeat fixed;
+   display: flex;
+   color: black;
+   padding: 10px;
+   border-radius: 30px;
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  
+}
+.profile h1{
+    font-size: 50px;
+}
+.profile:hover h1{
+    color: red;
+}
+.profile img{
+    
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(144, 46, 46, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+   
+}
+.profile img:hover{
+    border: 3px solid black;
+}
+
+.projects{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 30px;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.projects a{
+    text-decoration: none;
+}
+.box{
+    width: 48%;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: blueviolet;
+    background-color: black;
+    margin: 10px;
+    border-radius: 30px;
+
+}
+.box:hover{
+    background-color: coral;
+}
+
+.skills{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: blueviolet;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.skilbok{
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: greenyellow;
+  padding: 15px;
+  margin: 15px;
+  border-radius: 20px;
+
+}
+.skilbok h5:hover{
+   background-color: wheat;border-radius: 3px;
+}
+.skilbok h4{
+   background-color: white;border-radius: 3px;
+}
+
+.certify{
+
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.certify a{
+    background-color: greenyellow;
+    text-decoration: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.connect{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    color: white;
+
+}
